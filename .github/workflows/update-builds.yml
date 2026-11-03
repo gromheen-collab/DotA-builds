@@ -1,0 +1,31 @@
+name: update-builds
+on:
+  schedule:
+    - cron: '0 5 * * 1,4'
+  workflow_dispatch:
+    inputs:
+      heroes:
+        description: 'Герои через запятую (slug), пусто = все. Для теста: night-stalker'
+        required: false
+        default: ''
+permissions:
+  contents: write
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - name: Скачать билды
+        env:
+          ONLY: ${{ github.event.inputs.heroes }}
+        run: python3 scripts/fetch_builds.py
+        continue-on-error: true
+      - name: Закоммитить результат
+        if: always()
+        run: |
+          git config user.name "builds-bot"
+          git config user.email "builds-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "update builds"
+          git push
