@@ -1,0 +1,892 @@
+Night Stalker Mid pro build #1 · Core Mid - Dota 2 Pro Tracker
+Live
+Patch 7.41f Released - Stats are now available for the new patch.
+17
+Logo
+Home
+Home Support
+Meta
+Meta
+Log in
+ctrl
++
+K
+Pro Builds › Build #1
+Night Stalker
+#1
+Mid
+Mid
+Core Mid
+Night Stalker
+Pro build (Core Mid) built around Bracer, Magic Wand, Phase Boots, Hand of Midas, and Blink Dagger; with Assault Cuirass, Power Treads, Skull Basher, and Bottle appearing as lower-frequency situational options.
+Win Rate
+62%
+Avg KDA
+8.4 / 3.7 / 13.2
+GPM
+550
+XPM
+702
+Matches
+26
+Pros
+18
+Items & Skills
+Core items, skill order, talents, and neutral items from recent pro matches.
+Items
+Starting items
+Top combos
+Gauntlets of Strength
+Gauntlets of Strength
+Iron Branch
+Iron Branch
+Iron Branch
+Circlet
+27% pick
+71% WR
+Gauntlets of Strength ×2 · Iron Branch ×3 · Circlet · 7 matches
+Gauntlets of Strength
+Gauntlets of Strength
+Iron Branch
+Iron Branch
+Iron Branch
+Circlet
+Tango
+Observer Ward
+83%
+23% pick
+83% WR
+Gauntlets of Strength ×2 · Iron Branch ×3 · Circlet · Tango · optional Observer Ward 83% · 6 matches
+Core build order
+Bracer
+2.0'
+85% · 64%
+Bracer
+Pick 84.6% · WR 63.6%
+Magic Wand
+4.5'
+100% · 62%
+Magic Wand
+Pick 100.0% · WR 61.5%
+Phase Boots
+7.0'
+73% · 63%
+Phase Boots
+Pick 73.1% · WR 63.2%
+Hand of Midas
+12'
+62% · 63%
+Hand of Midas
+Pick 61.5% · WR 62.5%
+Blink Dagger
+16'
+96% · 60%
+Blink Dagger
+Pick 96.2% · WR 60.0%
+Aghanim's Shard
+18'
+38% · 60%
+Aghanim's Shard
+Pick 38.5% · WR 60.0%
+Black King Bar
+22'
+88% · 61%
+Black King Bar
+Pick 88.5% · WR 60.9%
+Nullifier
+34'
+73% · 63%
+Nullifier
+Pick 73.1% · WR 63.2%
+Situational
+10 items
+Assault Cuirass
+Assault Cuirass
+27% pick 100% WR 36'
+Power Treads
+Power Treads
+27% pick 57% WR 7.0'
+Skull Basher
+Skull Basher
+23% pick 67% WR 36'
+Bottle
+Bottle
+15% pick 50% WR 2.0'
+Soul Ring
+Soul Ring
+15% pick 50% WR 10'
+Abyssal Blade
+Abyssal Blade
+15% pick 50% WR 50'
+Drum of Endurance
+Drum of Endurance
+12% pick 67% WR 10'
+Swift Blink
+Swift Blink
+8% pick 100% WR 41'
+Radiance
+Radiance
+8% pick 50% WR 25'
+Overwhelming Blink
+Overwhelming Blink
+8% pick 50% WR 47'
+Skills
+Skill order
+1
+Void
+58%
+2
+Midnight Feast
+50%
+3
+Void
+67%
+4
+Crippling Fear
+68%
+5
+Crippling Fear
+42%
+6
+Dark Ascension
+93%
+7
+Crippling Fear
+65%
+8
+Crippling Fear
+88%
+9
+Crippling Fear
+77%
+10
+Void
+54%
+Talents
+-35s Dark Ascension Cooldown
+100.0% pick · 66.7% WR
+25
++100 Midnight Feast Lifesteal
+Not picked in this sample
++15 Strength
+78.9% pick · 60.0% WR
+20
++75 Crippling Fear Radius
+21.1% pick · 100.0% WR
+20% Hunter in the Night Status Resistance
+78.3% pick · 66.7% WR
+15
++25 Dark Ascension Damage
+21.7% pick · 60.0% WR
++10 Crippling Fear DPS
+84.6% pick · 63.6% WR
+10
+-1s Void Cooldown
+15.4% pick · 50.0% WR
+Neutral items
+Tier 1 to 5
+Tier 1
+Top 5
+Chipped Vest
+Tough
+Chipped Vest
+27% 57%
+Duelist Gloves
+Quickened
+Duelist Gloves
+15% 75%
+Dagger of Ristul
+Quickened
+Dagger of Ristul
+12% 67%
+Ash Legion Shield
+Brawny
+Ash Legion Shield
+12% 67%
+Stonefeather Satchel
+Brawny
+Stonefeather Satchel
+8% 100%
+Tier 2
+Top 5
+Crippling Crossbow
+Tough
+Crippling Crossbow
+31% 88%
+Defiant Shell
+Tough
+Defiant Shell
+15% 50%
+Medallion of Courage
+Tough
+Medallion of Courage
+15% 50%
+Searing Signet
+Brawny
+Searing Signet
+8% 100%
+Mana Draught
+Quickened
+Mana Draught
+8% 50%
+Tier 3
+Top 5
+Gunpowder Gauntlet
+Tough
+Gunpowder Gauntlet
+41% 67%
+Cloak of Flames
+Tough
+Cloak of Flames
+23% 80%
+Serrated Shiv
+Tough
+Serrated Shiv
+14% 67%
+Crippling Crossbow
+Tough
+Crippling Crossbow
+9% 50%
+Stormcrafter
+Brawny
+Stormcrafter
+9% 50%
+Tier 4
+Top 5
+Giant's Maul
+Tough
+Giant's Maul
+22% 75%
+Flayer's Bota
+Brawny
+Flayer's Bota
+22% 75%
+Rattlecage
+Tough
+Rattlecage
+17% 67%
+Enchanter's Bauble
+Brawny
+Enchanter's Bauble
+11% 0%
+Idol of Scree'Auk
+Crude
+Idol of Scree'Auk
+6% 100%
+Tier 5
+Top 1
+Minotaur Horn
+Fleetfooted
+Minotaur Horn
+100% 0%
+Recent matches
+wins ≥ 35′ first
+Night Stalker
+salamat1
+Night Stalker
+Items
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Bottle
+2′
+Bottle · 2′
+Magic Wand
+3′
+Magic Wand · 3′
+Boots of Speed
+5′
+Boots of Speed · 5′
+Phase Boots
+6′
+Phase Boots · 6′
+Hand of Midas
+12′
+Hand of Midas · 12′
+Blink Dagger
+15′
+Blink Dagger · 15′
+Black King Bar
+21′
+Black King Bar · 21′
+Nullifier
+29′
+Nullifier · 29′
+Gem of True Sight
+35′
+Gem of True Sight · 35′
+Octarine Core
+36′
+Octarine Core · 36′
+Build details
+Void
+Midnight Feast
+Void
+Crippling Fear
+Midnight Feast
+Dark Ascension
+Crippling Fear
+Crippling Fear
+Crippling Fear
+Void
+-35s Dark Ascension Cooldown
+25
++100 Midnight Feast Lifesteal
++15 Strength
+20
++75 Crippling Fear Radius
+20% Hunter in the Night Status Resistance
+15
++25 Dark Ascension Damage
++10 Crippling Fear DPS
+10
+-1s Void Cooldown
+Neutral
+Stonefeather Satchel
+Brawny
+Tier 1
+Crippling Crossbow
+Brawny
+Tier 2
+Cloak of Flames
+Brawny
+Tier 3
+Flayer's Bota
+Tough
+Tier 4
+WIN ↗
+Duration
+41:27
+Date
+2026-10-14
+Matchup
+salamit vs Nemiga
+Nemiga
+R
+Terrorblade
+Terrorblade (pos 1)
+Puck
+Puck (pos 2)
+Dark Seer
+Dark Seer (pos 3)
+Spirit Breaker
+Spirit Breaker (pos 4)
+Winter Wyvern
+Winter Wyvern (pos 5)
+D
+Tiny
+Tiny (pos 1)
+Night Stalker
+Night Stalker (pos 2)
+Tidehunter
+Tidehunter (pos 3)
+Techies
+Techies (pos 4)
+Dazzle
+Dazzle (pos 5)
+Night Stalker
+CHIRA_JUNIOR
+Night Stalker
+Items
+Gauntlets of Strength
+Gauntlets of Strength
+Gauntlets of Strength
+Gauntlets of Strength
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Circlet
+Circlet
+Bracer
+1′
+Bracer · 1′
+Boots of Speed
+3′
+Boots of Speed · 3′
+Magic Wand
+5′
+Magic Wand · 5′
+Power Treads
+7′
+Power Treads · 7′
+Wind Lace
+7′
+Wind Lace · 7′
+Drum of Endurance
+11′
+Drum of Endurance · 11′
+Blink Dagger
+16′
+Blink Dagger · 16′
+Aghanim's Shard
+18′
+Aghanim's Shard · 18′
+Black King Bar
+25′
+Black King Bar · 25′
+Nullifier
+34′
+Nullifier · 34′
+Skull Basher
+47′
+Skull Basher · 47′
+Greater Healing Lotus
+48′
+Greater Healing Lotus · 48′
+Abyssal Blade
+50′
+Abyssal Blade · 50′
+Build details
+Midnight Feast
+Void
+Crippling Fear
+Void
+Void
+Dark Ascension
+Crippling Fear
+Crippling Fear
+Crippling Fear
+Void
+-35s Dark Ascension Cooldown
+25
++100 Midnight Feast Lifesteal
++15 Strength
+20
++75 Crippling Fear Radius
+20% Hunter in the Night Status Resistance
+15
++25 Dark Ascension Damage
++10 Crippling Fear DPS
+10
+-1s Void Cooldown
+Neutral
+Possessed Mask
+Tough
+Tier 1
+Crippling Crossbow
+Tough
+Tier 2
+Crippling Crossbow
+Tough
+Tier 3
+Flayer's Bota
+Brawny
+Tier 4
+WIN ↗
+Duration
+52:40
+Date
+2026-09-26
+Matchup
+TY
+TY vs LGD
+LGD
+R
+Windranger
+Windranger (pos 1)
+Puck
+Puck (pos 2)
+Largo
+Largo (pos 3)
+Grimstroke
+Grimstroke (pos 4)
+Winter Wyvern
+Winter Wyvern (pos 5)
+D
+Io
+Io (pos 1)
+Night Stalker
+Night Stalker (pos 2)
+Huskar
+Huskar (pos 3)
+Dark Willow
+Dark Willow (pos 4)
+Witch Doctor
+Witch Doctor (pos 5)
+Night Stalker
+squad1x
+Night Stalker
+Items
+Gauntlets of Strength
+Gauntlets of Strength
+Gauntlets of Strength
+Gauntlets of Strength
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Circlet
+Circlet
+Bracer
+1′
+Bracer · 1′
+Bracer
+2′
+Bracer · 2′
+Boots of Speed
+4′
+Boots of Speed · 4′
+Magic Wand
+5′
+Magic Wand · 5′
+Phase Boots
+7′
+Phase Boots · 7′
+Blink Dagger
+12′
+Blink Dagger · 12′
+Aghanim's Shard
+15′
+Aghanim's Shard · 15′
+Black King Bar
+24′
+Black King Bar · 24′
+Nullifier
+32′
+Nullifier · 32′
+Assault Cuirass
+37′
+Assault Cuirass · 37′
+Overwhelming Blink
+52′
+Overwhelming Blink · 52′
+Build details
+Midnight Feast
+Void
+Void
+Crippling Fear
+Void
+Dark Ascension
+Crippling Fear
+Crippling Fear
+Crippling Fear
+Void
+-35s Dark Ascension Cooldown
+25
++100 Midnight Feast Lifesteal
++15 Strength
+20
++75 Crippling Fear Radius
+20% Hunter in the Night Status Resistance
+15
++25 Dark Ascension Damage
++10 Crippling Fear DPS
+10
+-1s Void Cooldown
+Neutral
+Dormant Curio
+Tough
+Tier 1
+Medallion of Courage
+Tough
+Tier 2
+Gunpowder Gauntlet
+Tough
+Tier 3
+Giant's Maul
+Tough
+Tier 4
+WIN ↗
+Duration
+55:18
+Date
+2026-08-28
+Matchup
+KS
+KS vs RE`Arise
+RE`Arise
+R
+Necrophos
+Necrophos (pos 1)
+Night Stalker
+Night Stalker (pos 2)
+Centaur Warrunner
+Centaur Warrunner (pos 3)
+Windranger
+Windranger (pos 4)
+Keeper of the Light
+Keeper of the Light (pos 5)
+D
+Templar Assassin
+Templar Assassin (pos 1)
+Puck
+Puck (pos 2)
+Underlord
+Underlord (pos 3)
+Rubick
+Rubick (pos 4)
+Winter Wyvern
+Winter Wyvern (pos 5)
+Night Stalker
+Niku
+Night Stalker
+Items
+Gauntlets of Strength
+Gauntlets of Strength
+Gauntlets of Strength
+Gauntlets of Strength
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Iron Branch
+Circlet
+Circlet
+Magic Wand
+2′
+Magic Wand · 2′
+Bracer
+3′
+Bracer · 3′
+Boots of Speed
+4′
+Boots of Speed · 4′
+Phase Boots
+6′
+Phase Boots · 6′
+Radiance
+14′
+Radiance · 14′
+Blink Dagger
+18′
+Blink Dagger · 18′
+Black King Bar
+25′
+Black King Bar · 25′
+Assault Cuirass
+32′
+Assault Cuirass · 32′
+Nullifier
+33′
+Nullifier · 33′
+Heaven's Halberd
+36′
+Heaven's Halberd · 36′
+Swift Blink
+40′
+Swift Blink · 40′
+Build details
+Void
+Midnight Feast
+Void
+Crippling Fear
+Midnight Feast
+Dark Ascension
+Midnight Feast
+Crippling Fear
+Crippling Fear
++10 Crippling Fear DPS
+-35s Dark Ascension Cooldown
+25
++100 Midnight Feast Lifesteal
++15 Strength
+20
++75 Crippling Fear Radius
+20% Hunter in the Night Status Resistance
+15
++25 Dark Ascension Damage
++10 Crippling Fear DPS
+10
+-1s Void Cooldown
+Neutral
+Dagger of Ristul
+Quickened
+Tier 1
+Dagger of Ristul
+Brawny
+Tier 2
+Gunpowder Gauntlet
+Brawny
+Tier 3
+Flayer's Bota
+Quickened
+Tier 4
+WIN ↗
+Duration
+48:18
+Date
+2026-08-10
+Matchup
+NAVI
+NAVI vs RE
+RE
+R
+Clinkz
+Clinkz (pos 1)
+Night Stalker
+Night Stalker (pos 2)
+Underlord
+Underlord (pos 3)
+Rubick
+Rubick (pos 4)
+Bane
+Bane (pos 5)
+D
+Shadow Fiend
+Shadow Fiend (pos 1)
+Puck
+Puck (pos 2)
+Beastmaster
+Beastmaster (pos 3)
+Keeper of the Light
+Keeper of the Light (pos 4)
+Ringmaster
+Ringmaster (pos 5)
+Night Stalker
+erik
+Night Stalker
+Items
+Gauntlets of Strength
+Gauntlets of Strength
+Gauntlets of Strength
+Gauntlets of Strength
+Iron Branch
+Iron Branch
+Magic Stick
+Magic Stick
+Bracer
+2′
+Bracer · 2′
+Bracer
+4′
+Bracer · 4′
+Boots of Speed
+6′
+Boots of Speed · 6′
+Magic Wand
+6′
+Magic Wand · 6′
+Phase Boots
+9′
+Phase Boots · 9′
+Hand of Midas
+17′
+Hand of Midas · 17′
+Blink Dagger
+21′
+Blink Dagger · 21′
+Black King Bar
+28′
+Black King Bar · 28′
+Assault Cuirass
+36′
+Assault Cuirass · 36′
+Nullifier
+41′
+Nullifier · 41′
+Build details
+Void
+Midnight Feast
+Void
+Crippling Fear
+Crippling Fear
+Dark Ascension
+Crippling Fear
+Crippling Fear
+Void
+Void
+-35s Dark Ascension Cooldown
+25
++100 Midnight Feast Lifesteal
++15 Strength
+20
++75 Crippling Fear Radius
+20% Hunter in the Night Status Resistance
+15
++25 Dark Ascension Damage
++10 Crippling Fear DPS
+10
+-1s Void Cooldown
+Neutral
+Chipped Vest
+Tough
+Tier 1
+Crippling Crossbow
+Tough
+Tier 2
+Serrated Shiv
+Tough
+Tier 3
+Giant's Maul
+Tough
+Tier 4
+WIN ↗
+Duration
+42:19
+Date
+2026-07-27
+Matchup
+TEAM MONKEYS vs team gunnar
+R
+Clinkz
+Clinkz (pos 1)
+Puck
+Puck (pos 2)
+Centaur Warrunner
+Centaur Warrunner (pos 3)
+Bane
+Bane (pos 4)
+Hoodwink
+Hoodwink (pos 5)
+D
+Nature's Prophet
+Nature's Prophet (pos 1)
+Night Stalker
+Night Stalker (pos 2)
+Tidehunter
+Tidehunter (pos 3)
+Rubick
+Rubick (pos 4)
+Abaddon
+Abaddon (pos 5)
+Footer decoration
+D2PT Logo
+Explore
+Meta
+Pro Overview
+Meta Escape
+Tournaments
+Builds
+Heroes
+Players
+Pages
+Overview
+Tier Lists NEW
+Pubs vs Pro
+Radiant / Dire
+New Gaming Chair
+Combos
+Items
+Patches
+Changelog
+Tools
+Hero Lists
+Drafter
+Hero Grids
+Matchup Search
+Replay Upload
+Community
+Discord
+Twitter
+BuyMeACoffee
+Support
+Contact
+Support D2PT
+Dashboard
+Privacy Policy · Terms of Service
+© 2026 Dota2ProTracker.com. All rights reserved. The STRATZ Logo is a registered trademark of STRATZ, LLC. All Rights Reserved. Dota 2, and the Dota 2 logo are registered trademarks of Valve Corporation.
+Ads Powered by Playwire
+Advertise on this site.
