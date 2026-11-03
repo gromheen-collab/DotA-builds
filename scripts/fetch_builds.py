@@ -104,9 +104,9 @@ def parse(L):
                 o['core'].append([nn(t.group(1) or L[i - 1]), float(t.group(2)), int(r.group(1)), int(r.group(2))])
     if s >= 0:
         for i in range(s + 1, end(s, k)):
-            m = re.fullmatch(r"(\d+)% pick (\d+)% WR (\d+)'", L[i])
+            m = re.fullmatch(r"(\d+)% pick (\d+)% WR (\d+(?:\.\d+)?)'", L[i])
             if m:
-                o['sit'].append([nn(L[i - 1]), int(m.group(3)), int(m.group(1)), int(m.group(2))])
+                o['sit'].append([nn(L[i - 1]), float(m.group(3)), int(m.group(1)), int(m.group(2))])
     if n >= 0:
         tr = 0
         for i in range(n + 1, len(L)):
@@ -117,6 +117,95 @@ def parse(L):
             elif m and tr:
                 o['neu'].setdefault(str(tr), []).append([nn(L[i - 1]), int(m.group(1)), int(m.group(2))])
     return o
+
+
+def js2json(s):
+    # JS-литерал SvelteKit (ключи без кавычек, числа вида .5) -> JSON
+    out, i, n = [], 0, len(s)
+
+    def prev():
+        for ch in reversed(out):
+            if ch.strip():
+                return ch[-1]
+        return ''
+    while i < n:
+        c = s[i]
+        if c == '"':
+            j = i + 1
+            while j < n and s[j] != '"':
+                j += 2 if s[j] == '\\' else 1
+            out.append(s[i:j + 1])
+            i = j + 1
+        elif c.isalpha() or c in '_$':
+            j = i
+            while j < n and (s[j].isalnum() or s[j] in '_$'):
+                j += 1
+            w, k = s[i:j], j
+            while k < n and s[k] in ' \t\r\n':
+                k += 1
+            if k < n and s[k] == ':' and prev() in '{,':
+                out.append('"' + w + '"')
+            else:
+                out.append('null' if w == 'undefined' else w)
+            i = j
+        elif c == '.' and i + 1 < n and s[i + 1].isdigit() and not prev().isdigit():
+            out.append('0.')
+            i += 1
+        elif c == '!' and i + 1 < n and s[i + 1] in '01':
+            out.append('true' if s[i + 1] == '0' else 'false')
+            i += 2
+        else:
+            out.append(c)
+            i += 1
+    return ''.join(out)
+
+
+def extract_data(html):
+    m = re.search(r'data:\s*\[\{type:"data"', html)
+    if not m:
+        return None
+    i = html.index('[', m.start())
+    depth, j, ins = 0, i, False
+    while j < len(html):
+        ch = html[j]
+        if ins:
+            if ch == '\\':
+                j += 1
+            elif ch == '"':
+                ins = False
+        elif ch == '"':
+            ins = True
+        elif ch in '[{':
+            depth += 1
+        elif ch in ']}':
+            depth -= 1
+            if depth == 0:
+                return html[i:j + 1]
+        j += 1
+    return None
+
+
+def parse_embedded(html):
+    arr = extract_data(html)
+    if not arr:
+        return None
+    nodes = json.loads(js2json(arr))
+    d = next((x['data'] for x in nodes if isinstance(x, dict) and isinstance(x.get('data'), dict) and 'build' in x['data']), None)
+    if not d:
+        return None
+    b = d['build']
+    pc = lambda v: round((v or 0) * 100)
+    mn = lambda x: x.get('median_minute', x.get('avg_minute', 0)) or 0
+    nm_ = lambda x, k: x.get(k) or ('#%s' % x.get('item_id', x.get('neutral_item_id', '?')))
+    ci = b.get('core_items') or {}
+    bo = sorted(ci.get('build_order') or [], key=lambda x: x.get('order_position', 0))
+    ids = {x['item_id'] for x in bo}
+    core = [[nm_(x, 'item_name'), mn(x), pc(x.get('pick_rate')), pc(x.get('win_rate')), x['item_id']] for x in bo]
+    sit = [[nm_(x, 'item_name'), mn(x), pc(x.get('pick_rate')), pc(x.get('win_rate')), x['item_id']] for x in (ci.get('top_items') or []) if x['item_id'] not in ids]
+    start = [[[[nm_(it, 'item_name'), it.get('quantity', 1)] for it in s.get('items', [])], pc(s.get('pick_rate')), pc(s.get('win_rate')), s.get('matches', 0)] for s in (b.get('starting_items') or [])]
+    neu = {str(t): [[nm_(x, 'neutral_item_name'), pc(x.get('pick_rate')), pc(x.get('win_rate')), x.get('neutral_item_id')] for x in v[:5]] for t, v in (b.get('neutral_items') or {}).items()}
+    nmat = b.get('num_matches') or 0
+    return {'title': b.get('build_label') or '', 'wr': round(100 * (b.get('num_wins') or 0) / nmat) if nmat else None, 'm': nmat, 'start': start, 'core': core, 'sit': sit, 'neu': neu, 'patch': d.get('patchversion') or ''}
 
 
 def get(url):
@@ -144,7 +233,7 @@ def main():
     heroes = json.loads(body)
     (OUT / 'builds').mkdir(exist_ok=True)
     (OUT / 'debug').mkdir(exist_ok=True)
-    rep = {'started': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'heroes_ok': 0, 'pages': 0, 'parse_fail': [], 'errors': [], 'blocked': False}
+    rep = {'started': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'heroes_ok': 0, 'pages': 0, 'parse_fail': [], 'errors': [], 'exceptions': [], 'blocked': False}
     patch, bad, dbg_fail = '', 0, 0
     for h in heroes:
         name = h['localized_name']
@@ -169,7 +258,11 @@ def main():
                 if bad >= 8 or not page:
                     break
                 L = lines(page[1])
-                b = parse(L)
+                try:
+                    b = parse_embedded(page[1]) or parse(L)
+                except Exception as e:
+                    rep['exceptions'].append(f'{page[0]}-pos{pos}-{i}: {e!r}'[:200])
+                    b = {'core': []}
                 rep['pages'] += 1
                 tag = f'{page[0]}-pos{pos}-{i}'
                 if not (OUT / 'debug' / 'sample.html').exists():
@@ -185,7 +278,7 @@ def main():
                 lst.append(b)
                 if not patch:
                     m = re.search(r'Patch ([\w.]+) Released', ' '.join(L[:40]))
-                    patch = m.group(1) if m else ''
+                    patch = b.get('patch') or (m.group(1) if m else '')
             if bad >= 8:
                 break
             if lst:
