@@ -1,10 +1,10 @@
 {
- "started": "2026-11-03T21:09:36.674931+00:00",
- "heroes_ok": 1,
- "pages": 2,
+ "started": "2026-11-05T05:45:52.956062+00:00",
+ "heroes_ok": 125,
+ "pages": 261,
  "parse_fail": [],
  "errors": [],
  "exceptions": [],
  "blocked": false,
- "finished": "2026-11-03T21:09:50.122961+00:00"
+ "finished": "2026-11-05T06:14:12.171647+00:00"
 }
