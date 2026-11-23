@@ -1,12 +1,10 @@
 {
- "started": "2026-11-19T13:59:58.832722+00:00",
+ "started": "2026-11-23T15:30:10.952547+00:00",
  "heroes_ok": 125,
  "pages": 262,
  "parse_fail": [],
- "errors": [
-  "brewmaster-pos5-1: 500"
- ],
+ "errors": [],
  "exceptions": [],
  "blocked": false,
- "finished": "2026-11-19T14:26:18.938891+00:00"
+ "finished": "2026-11-23T15:58:39.423303+00:00"
 }
